@@ -8,6 +8,12 @@ const translations = {
     optionTwoName: "Atelier vivant",
     optionThree: "Option 3",
     optionThreeName: "Nocturne",
+    optionFour: "Option 4",
+    optionFourName: "Biome",
+    optionFive: "Option 5",
+    optionFiveName: "Brut",
+    optionSix: "Option 6",
+    optionSixName: "Lumina",
     navMaterials: "Matières",
     navAtelier: "Atelier",
     navCollection: "Collection",
@@ -21,6 +27,12 @@ const translations = {
       "Les formes fongiques deviennent lignes portées: souplesse du cuir, densité du bois, précision du laiton.",
     nocturneHeroLead:
       "Un volume noir, presque végétal, où le cuir plissé capte la lumière du laiton et trace une silhouette de nuit.",
+    biomeHeroLead:
+      "Les formes fongiques rencontrent la douceur de la forêt : cuir vert sauge, socle en liège et laiton satiné.",
+    brutHeroLead:
+      "Une silhouette radicale et géométrique où le cèdre massif s'allie au cuir noir de carbone et à l'acier brut.",
+    luminaHeroLead:
+      "Une fusion techno-couture de cuir d'obsidienne et de résine aux filaments de mycélium bioluminescents.",
     primaryCta: "Explorer la collection",
     secondaryCta: "Demander un rendez-vous",
     materialsTitle: "Matières d'exception",
@@ -29,10 +41,23 @@ const translations = {
     livingMaterialsTitle: "Matières vivantes",
     livingMaterialsText:
       "Les surfaces sont choisies pour leur réaction à la main: cuir tanné, bois huilé, laiton qui se patine et reliefs mycélium.",
+    biomeMaterialsTitle: "Écosystème matériel",
+    biomeMaterialsText:
+      "Des matières prélevées dans le respect du vivant: liège régénératif, cuir tanné végétal, et teintures aux lichens de sous-bois.",
+    brutMaterialsTitle: "Vérité structurelle",
+    brutMaterialsText:
+      "Pas de fioritures. La matière s'exprime dans sa nudité : cèdre brossé, cuir de caractère, acier brut usiné.",
+    luminaMaterialsTitle: "Matières photoniques",
+    luminaMaterialsText:
+      "La technologie fusionne avec le biologique : résines transparentes photoréactives et cuir d'obsidienne plissé.",
     materialLeather: "Cuir",
     materialWood: "Bois",
     materialMycelium: "Mycélium",
     materialBrass: "Laiton",
+    materialCork: "Liège",
+    materialSteel: "Acier",
+    materialTitanium: "Titane",
+    materialResin: "Résine",
     collectionTitle: "Trois silhouettes, une même exigence",
     collectionText:
       "Chaque modèle est produit en petites séries, avec un équilibre entre sculpture, usage et réparabilité.",
@@ -42,6 +67,22 @@ const translations = {
     productTwoText: "Cuir brun plissé, anse bois sculptée et attaches laiton.",
     productThreeTitle: "Nocturne",
     productThreeText: "Volume noir laqué, veinage organique et lumière cuivre.",
+    productFourTitle: "Écorce",
+    productFourText: "Cuir vert sauge, coque de liège naturel et attaches en bronze brossé.",
+    productFiveTitle: "Slab",
+    productFiveText: "Châssis en cèdre brut, corps en cuir noir de carbone et charnières acier.",
+    productSixTitle: "Aura",
+    productSixText: "Résine translucide infusée de filaments lumineux, cuir plissé sombre.",
+    productSevenTitle: "Lichen",
+    productSevenText: "Cuir vert olive, coiffe mycélium mousseuse, attaches patinées.",
+    productEightTitle: "Stump",
+    productEightText: "Chêne massif carbonisé, cuir épais texturé noir, charnières brutes.",
+    productNineTitle: "Block",
+    productNineText: "Corps en mycélium compressé et poignée en acier brossé.",
+    productTenTitle: "Glow",
+    productTenText: "Filaments fongiques phosphorescents, cuir noir-violet.",
+    productElevenTitle: "Nova",
+    productElevenText: "Résine iridescente bleu-violet et cage structurelle en titane.",
     atelierTitle: "L'atelier",
     atelierText:
       "Chaque sac naît d'un dialogue entre matière, geste et temps. Les pièces sont assemblées, poncées et patinées en atelier.",
@@ -54,6 +95,12 @@ const translations = {
     processFour: "Assembler à la main",
     nocturneAtelierText:
       "Un savoir-faire exigeant: gestes précis, volumes libres, finitions sombres et durables.",
+    biomeAtelierText:
+      "Un geste respectueux de la matière brute : liège prélevé avec soin et cuir teinté aux pigments végétaux.",
+    brutAtelierText:
+      "Une approche architecturale et franche : coupes nettes, assemblages visibles et surfaces sans artifice.",
+    luminaAtelierText:
+      "Une recherche d'avant-garde : hybridation de biomatériaux, résines optiques et micro-détails photoluminescents.",
     contactTitle: "Présentation privée",
     contactText:
       "Échangeons autour d'une pièce existante, d'une commande spéciale ou d'une collaboration matière.",
@@ -66,6 +113,12 @@ const translations = {
     optionTwoName: "Living Atelier",
     optionThree: "Option 3",
     optionThreeName: "Nocturne",
+    optionFour: "Option 4",
+    optionFourName: "Biome",
+    optionFive: "Option 5",
+    optionFiveName: "Brut",
+    optionSix: "Option 6",
+    optionSixName: "Lumina",
     navMaterials: "Materials",
     navAtelier: "Atelier",
     navCollection: "Collection",
@@ -76,9 +129,15 @@ const translations = {
     heroLead:
       "Gabou shapes high-value handbags inspired by mushroom and mycelium forms, between art object and daily companion.",
     atelierHeroLead:
-      "Fungal forms become wearable lines: leather suppleness, wood density, brass precision.",
+      "Les formes fongiques deviennent lignes portées: souplesse du cuir, densité du bois, précision du laiton.",
     nocturneHeroLead:
       "A black, almost vegetal volume where pleated leather catches brass light and draws a night silhouette.",
+    biomeHeroLead:
+      "Fungal forms meet the softness of the forest: sage green leather, cork oak base and satin brass.",
+    brutHeroLead:
+      "A radical, geometric silhouette combining solid cedar wood, carbon black leather, and raw steel.",
+    luminaHeroLead:
+      "A techno-couture fusion of obsidian leather and resin infused with bioluminescent mycelium threads.",
     primaryCta: "Explore the collection",
     secondaryCta: "Request an appointment",
     materialsTitle: "Exceptional materials",
@@ -87,10 +146,23 @@ const translations = {
     livingMaterialsTitle: "Living materials",
     livingMaterialsText:
       "Surfaces are selected for how they answer the hand: tanned leather, oiled wood, brass that patinates and mycelium reliefs.",
+    biomeMaterialsTitle: "Material Ecosystem",
+    biomeMaterialsText:
+      "Materials harvested with respect for the living: regenerative cork, vegetable-tanned leather, and dyes from undergrowth lichen.",
+    brutMaterialsTitle: "Structural Truth",
+    brutMaterialsText:
+      "No embellishments. The material speaks for itself: brushed cedar, textured leather, raw machined steel.",
+    luminaMaterialsTitle: "Photonic Materials",
+    luminaMaterialsText:
+      "Technology merges with biology: photoreactive transparent resins and pleated obsidian-dark leather.",
     materialLeather: "Leather",
     materialWood: "Wood",
     materialMycelium: "Mycelium",
     materialBrass: "Brass",
+    materialCork: "Cork",
+    materialSteel: "Steel",
+    materialTitanium: "Titanium",
+    materialResin: "Resin",
     collectionTitle: "Three silhouettes, one standard",
     collectionText:
       "Each model is produced in small series, balancing sculpture, use and repairability.",
@@ -100,6 +172,22 @@ const translations = {
     productTwoText: "Pleated brown leather, carved wood handle and brass fittings.",
     productThreeTitle: "Nocturne",
     productThreeText: "Black lacquer volume, organic veining and copper light.",
+    productFourTitle: "Écorce",
+    productFourText: "Sage green leather, natural cork shell and brushed bronze fittings.",
+    productFiveTitle: "Slab",
+    productFiveText: "Raw cedar frame, carbon black leather body and steel hinges.",
+    productSixTitle: "Aura",
+    productSixText: "Translucent resin infused with glowing threads, pleated dark leather.",
+    productSevenTitle: "Lichen",
+    productSevenText: "Olive green leather, mossy mycelium cap, patinated fittings.",
+    productEightTitle: "Stump",
+    productEightText: "Charred solid oak, heavy textured black leather, raw iron joints.",
+    productNineTitle: "Block",
+    productNineText: "Compressed mycelium block body and brushed steel handle.",
+    productTenTitle: "Glow",
+    productTenText: "Phosphorescent fungal threads, dark black-violet leather.",
+    productElevenTitle: "Nova",
+    productElevenText: "Iridescent blue-violet resin and titanium structural cage.",
     atelierTitle: "The atelier",
     atelierText:
       "Each bag begins as a dialogue between material, gesture and time. Pieces are assembled, sanded and patinated in the atelier.",
@@ -112,6 +200,12 @@ const translations = {
     processFour: "Assemble by hand",
     nocturneAtelierText:
       "Demanding know-how: precise gestures, free volumes, dark and durable finishes.",
+    biomeAtelierText:
+      "A craft respectful of raw materials: gently harvested cork and leather dyed with plant pigments.",
+    brutAtelierText:
+      "An architectural, honest approach: clean cuts, visible joints, and unadorned surfaces.",
+    luminaAtelierText:
+      "An avant-garde exploration: hybridization of biomaterials, optical resins, and photoluminescent micro-details.",
     contactTitle: "Private presentation",
     contactText:
       "Let us discuss an existing piece, a special order or a material collaboration.",

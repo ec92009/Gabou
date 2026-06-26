@@ -14,6 +14,9 @@ mushroom and mycelium forms with leather, solid wood, and brass.
 1. `Option 1 - Gallery`: museum-grade ivory, black and brass editorial luxury.
 2. `Option 2 - Living Atelier`: tactile mycelium workshop with warm leather and wood.
 3. `Option 3 - Nocturne`: dark cinematic boutique with black lacquer and copper-brass light.
+4. `Option 4 - Biome`: forest-floor organic with sage green leather, cork oak base, and matte brass.
+5. `Option 5 - Brut`: minimalist architectural brutalism with raw cedar frame, black leather, and steel.
+6. `Option 6 - Lumina`: futuristic bioluminescent resin with glowing mycelium filaments and titanium.
 
 ## Controls
 
